@@ -4,27 +4,25 @@
 <head>
 	<title>CAROUSEL</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <style type="text/css">
-    	.animate1{
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .animate1{
     		animation-name: text1;
     		animation-duration: 4s;
-    		/*animation-delay: 2s;*/
-    		/*animation-timing-function: ease-out;*/
     	}
-    	@keyframes text1{
-    			from {
+     @keyframes text1{
+    		from {
     				margin-left: 0px;
     				opacity:0;
-  				}
+  			}
 
-  				to {
+  			to {
     				margin-left: 135px;
-  				}
-		}
+  			}
+		  }
 		.animate2{
     		animation-name: text2;
     		animation-duration: 6s;
